@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Currency converter</title>
+    <link href="styles.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+    <div class="header">
+        <div class="leftHead">
+            <img src="images/bank.png" alt="logoBank">
+        </div>
+        <div class="centerHead">
+            <div class="black">БАНК</div>
+            <div>БИЗНЕС</div>
+            <div>ИНВЕСТИЦИИ</div>
+            <div>СТРАХОВАНИЕ</div>
+            <div>МОБАЙЛ</div>
+            <div>ПУТЕШЕСТВИЯ</div>
+            <div>РАЗВЛЕЧЕНИЯ</div>
+        </div>
+        <div class="rightHead">
+            <p class="rightHeadEnter">ВОЙТИ</p>
+        </div>
+    </div>
+    <main>
+        <h3>Конвертер валют онлайн</h3>
+        <div class="allcards">
+        <div class="card">
+            <p class="IHaveOrWant"> У меня есть </p>
+            <div class="Allbuttons">
+                <div class="buttons select-button" id="LeftRUB">RUB</div>
+                <div  class="buttons" id="LeftUSD">USD</div>
+                <div  class="buttons" id="LeftEUR">EUR</div>
+                <div class="buttons" id="LeftGBP">GBP</div>
+            </div>
+            <div class="InputAndHint">
+                <input type="text" id="leftInp">
+                <p class="hint" id="leftHint">1 RUB = </p>
+            </div>
+        </div>
+        <div class="card">
+            <p class="IHaveOrWant"> Хочу приобрести </p>
+            <div class="Allbuttons">
+                <div class="buttons select-button" id="RightRUB">RUB</div>
+                <div  class="buttons" id="RightUSD">USD</div>
+                <div  class="buttons" id="RightEUR">EUR</div>
+                <div class="buttons" id="RightGBP">GBP</div>
+            </div>
+            <div class="InputAndHint">
+                <input type="text" id="rightInp">
+                <p class="hint" id="rightHint">1 USD = </p>
+            </div>
+            
+
+        </div>
+    </div>
+    </main>
+    <script src="projectM3.js"></script>
+</body>
+</html>
+

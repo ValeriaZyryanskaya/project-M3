@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;1,100&display=swap');
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+
+.header{
+    background: #F5F5F6;
+    height:50px;
+    width: 100vw;
+    font-family: Roboto;
+    font-weight: 500;
+    font-size: 11px;
+    display: flex;
+}
+.leftHead{
+    width: 15vw;
+    margin-top: 15px;
+    margin-left:120px;
+}
+.centerHead{
+    align-items:center;
+    color: #959BA4;
+    width: 49vw;
+    display: flex;
+    justify-content: space-between;
+}
+
+.black{
+    color: black;
+}
+
+.rightHeadEnter{
+    background: #FFFF;
+    border-radius: 4px;
+    align-items:center;
+    justify-content: space-between;
+    padding: 10px;
+    margin-left: 170px;
+    margin-top: 8px;
+}
+
+/* main */
+
+main{
+    /* margin: 0 auto; */
+    margin-left: 23vw;
+    margin-top: 56px;
+}
+
+h3{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    margin-bottom: 35px;
+}
+
+.IHaveOrWant{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+
+    color: #9F9F9F;
+    margin-bottom: 10px;
+
+}
+.Allbuttons{
+    display: flex;
+}
+
+
+.buttons{
+    border: 1px solid #E5E5E5;
+    width: 65.06px;
+    height: 30px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    text-align: center;
+    color: #C6C6C6;
+    padding-top: 7px;
+    
+}
+
+.buttons:first-child{
+    border-radius: 7px 0 0 7px;
+}
+.buttons:last-child{
+    border-radius: 0 7px 7px 0;
+    
+}
+
+.InputAndHint{
+    width: 259px;
+    left: 253px;
+    top: 250px;
+
+    border: 1px solid #E5E5E5;
+    box-sizing: border-box;
+    border-radius: 3px;
+    margin-top: 20px;
+}
+input{
+    outline: none;
+    border: none;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+
+    width: 237px;
+    margin-top: 11px;
+    margin-left: 11px;
+    }
+#hint{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    margin-left: 11px;
+    margin-top: 23px;
+    color: #C6C6C6;
+
+}
+.select-button{
+    background-color: #833AE0;
+    color: white;
+}
+
+.allcards{
+    display: flex;
+}
+.card{
+    margin-right: 123px;
+}
+.hint {
+    margin-top: 20px;
+    margin-left: 10px;
+}
